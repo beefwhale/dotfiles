@@ -38,6 +38,10 @@ news
 
 ```
 
+### Extensions
+
+uBlockOrigin: https://github.com/gorhill/uBlock#ublock-origin 
+Password Manager: [Bitwarden](https://bitwarden.com/) OR [KeepassXC](https://keepassxc.org/)
 
 
 
