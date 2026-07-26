@@ -44,14 +44,16 @@ news
 - Password Manager: [Bitwarden](https://bitwarden.com/) / [KeepassXC](https://keepassxc.org/)
 
 
-
-## Terminal
+## Terminal & IDEs
 Colours taken from pixelgami's [terminal profile](https://github.com/pixegami/terminal-profile) 
 
 On MacOS:
 
 - Terminal: `Settings > Profiles > Import..`
 - iTerm2: `Settings > Profiles > Import from JSON`  
+
+### VSCode
+Themes: [Ayu Dark Legacy by TeeSeal](https://vscodethemes.com/e/TeeSeal.ayu-legacy/ayu-dark-legacy)
 
 
 ## Git Alias
