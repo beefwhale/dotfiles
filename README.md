@@ -57,33 +57,42 @@ On MacOS:
 Git aliases are cracked. Cracked as hell when dealing with multiple branches. Also got from my mentor at Stripe!
 
 1. status : `git st`
+
     ``` 
     git config --global alias.st status
     ```
 2. branch : `git br`
+
     ```
     git config --global alias.br branch
     ```
 3. checkout : `git co branchname`
+
     ```
     git config --global alias.co checkout
     ```
 4. add all and commit : `git ac`
+
     ```
-    git config --global alias.ac '! ac() { git add . && git commit -m
-    "$1" ; } ; ac'
+    git config --global alias.ac '! ac() { git add . && git commit -m "$1" ; } ; ac'
     ```
 5. add all, commit and push : `git acp "message"`
+
     ```
-    git config --global alias.acp '! acp() { git add . && git commit
-    -m "$1" && git push ; } ; acp'
+    git config --global alias.acp '! acp() { git add . && git commit -m "$1" && git push ; } ; acp'
     ```
 6. log --oneline : `git lg`
+
     ```
     git config --global alias.lg 'log --oneline'
     ```
 7. rebase on latest master : `git rbm`
+
     ```
-    git config --global alias.rbm '! rbm() { git checkout master &&
-    git pull && git checkout "$1" && git rebase master ; } ; rbm'
+    git config --global alias.rbm '! rbm() { git checkout master && git pull && git checkout "$1" && git rebase master ; } ; rbm'
     ```
+
+Or you can run it in a single command 
+```bash
+git config --global include.path ~/.gitconfig-aliases
+``` 

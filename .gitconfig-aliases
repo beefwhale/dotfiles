@@ -1,0 +1,8 @@
+[alias]
+    st = status
+    br = branch
+    co = checkout
+    lg = log --graph --decorate --oneline --all
+    ac = "!f() { git add . && git commit -m \"$1\"; }; f"
+    acp = "!f() { git add . && git commit -m \"$1\" && git push; }; f"
+    rbm = "!git fetch origin && git rebase origin/master"
