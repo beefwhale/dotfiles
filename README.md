@@ -40,10 +40,8 @@ news
 
 ### Extensions
 
-uBlockOrigin: https://github.com/gorhill/uBlock#ublock-origin 
-Password Manager: [Bitwarden](https://bitwarden.com/) OR [KeepassXC](https://keepassxc.org/)
-
-
+- uBlockOrigin: https://github.com/gorhill/uBlock#ublock-origin 
+- Password Manager: [Bitwarden](https://bitwarden.com/) / [KeepassXC](https://keepassxc.org/)
 
 
 
@@ -58,7 +56,7 @@ On MacOS:
 
 ## Git Alias
 
-Git aliases are cracked. Cracked as hell when dealing with multiple branches. Also got from my mentor at Stripe (and added some of my own) !
+Git aliases are cracked. Cracked as hell when dealing with multiple branches. Also got from my mentor at Stripe (and adding some of my own) !
 
 1. status : `git st`
 
@@ -96,7 +94,7 @@ Git aliases are cracked. Cracked as hell when dealing with multiple branches. Al
     git config --global alias.rbm '! rbm() { git checkout master && git pull && git checkout "$1" && git rebase master ; } ; rbm'
     ```
 
-Or you can run it in a single command 
+Or you can run it in a single command:
 ```bash
 git config --global include.path ~/.gitconfig-aliases
 ``` 
