@@ -54,7 +54,7 @@ On MacOS:
 
 ## Git Alias
 
-Git aliases are cracked. Cracked as hell when dealing with multiple branches. Also got from my mentor at Stripe!
+Git aliases are cracked. Cracked as hell when dealing with multiple branches. Also got from my mentor at Stripe (and added some of my own) !
 
 1. status : `git st`
 
