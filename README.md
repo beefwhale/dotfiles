@@ -1,6 +1,6 @@
 # dotfiles
 
-An amalgamation of all the custom presets I've collected and I like on my setup from my years of using windows, linux mint and now macos. Mostly for productivity and personal aesthetics. 
+An amalgamation of all the custom presets I've collected and I like on my setup from my years of using windows, linux mint and now also macos. Mostly for productivity and personal aesthetics. 
 
 ## Browser
 
@@ -40,7 +40,7 @@ news
 
 ### Extensions
 
-- uBlockOrigin: https://github.com/gorhill/uBlock#ublock-origin 
+- Ad-blocker : [uBlockOrigin](https://github.com/gorhill/uBlock#ublock-origin)
 - Password Manager: [Bitwarden](https://bitwarden.com/) / [KeepassXC](https://keepassxc.org/)
 
 
