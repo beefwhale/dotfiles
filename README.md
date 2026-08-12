@@ -100,3 +100,7 @@ Or you can run it in a single command:
 ```bash
 git config --global include.path ~/.gitconfig-aliases
 ``` 
+
+## Special Thanks!
+- [Anqi](https://github.com/anqichen9856) @ Stripe 
+- [Pixelgami](https://github.com/pixegami)
