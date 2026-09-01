@@ -104,6 +104,13 @@ git config --global include.path ~/.gitconfig-aliases
 git config --global core.hooksPath ~/.git-global-hooks
 ``` 
 
+## Bash (.bashrc)
+- lazy bash aliases
+- branch name in terminal prompt
+```
+yongqing@burgerbook:dotfiles (main)$
+```
+
 ## Special Thanks!
 - [Anqi](https://github.com/anqichen9856) @ Stripe 
 - [Pixelgami](https://github.com/pixegami)
