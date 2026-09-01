@@ -6,11 +6,6 @@ echo "I know you think it is right"
 echo "Check the branch again"
 echo
 
-current_branch=$(git branch --show-current)
-
-echo -e "You are about to push: \033[33m$current_branch\033[0m"
-echo
-
 echo -en "\033[31mAre you sure this is the right branch ಠಿ_ಠ? [y/N] \033[0m"
 read -r answer </dev/tty
 
