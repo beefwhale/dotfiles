@@ -98,7 +98,10 @@ Git aliases are cracked. Cracked as hell when dealing with multiple branches. Al
 
 Or you can run it in a single command:
 ```bash
+# git aliases
 git config --global include.path ~/.gitconfig-aliases
+# git pre-hooks
+git config --global core.hooksPath ~/.git-global-hooks
 ``` 
 
 ## Special Thanks!
