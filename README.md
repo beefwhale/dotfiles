@@ -36,6 +36,10 @@ Google News
 https://news.google.com/search?q=%s
 news
 
+No Gem
+https://google.com/search?udm=14&q=%s
+@ng
+
 ```
 
 ### Extensions
@@ -52,9 +56,10 @@ On MacOS:
 - Terminal: `Settings > Profiles > Import..`
 - iTerm2: `Settings > Profiles > Import from JSON`  
 
-### VSCode
-Themes: [Ayu Dark Legacy by TeeSeal](https://vscodethemes.com/e/TeeSeal.ayu-legacy/ayu-dark-legacy)
-
+### VSCodium
+Themes: 
+- [Ayu Dark Legacy by TeeSeal](https://vscodethemes.com/e/TeeSeal.ayu-legacy/ayu-dark-legacy)
+- [Halcyon](https://halcyon-theme.netlify.app/)
 
 ## Git Alias
 
