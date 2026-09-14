@@ -1,0 +1,8 @@
+{
+  "files.insertFinalNewline": true,
+  "notebook.insertFinalNewline": true,
+  "editor.autoIndentOnPaste": true,
+  "editor.formatOnPaste": true,
+  "C_Cpp.default.cppStandard": "c++20",
+  "workbench.colorTheme": "Halcyon"
+}
