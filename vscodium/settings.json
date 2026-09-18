@@ -4,5 +4,11 @@
   "editor.autoIndentOnPaste": true,
   "editor.formatOnPaste": true,
   "C_Cpp.default.cppStandard": "c++20",
-  "workbench.colorTheme": "Halcyon"
+  "workbench.colorTheme": "Halcyon",
+  "diffEditor.ignoreTrimWhitespace": false,
+  // ui compactness
+  "window.density.editorTabHeight": "compact",
+  "workbench.activityBar.location": "top",
+  "window.zoomLevel": 0.4,
+  "explorer.compactFolders": true
 }
