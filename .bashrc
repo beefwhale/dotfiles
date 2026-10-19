@@ -1,6 +1,15 @@
+# plugins
+eval "$(zoxide init bash)"
+
 # lazy bash aliases
 alias clang++="clang++ -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion"
 alias clr="clear"
+alias code="codium"
+
+# pi stuff
+q() {
+    pi --model gpt-6-luna --thinking off --print "$*"
+}
 
 # nvim stuff
 export NVM_DIR="$HOME/.nvm"
@@ -16,5 +25,3 @@ git_branch() {
         echo " ($branch)"
     fi
 }
-
-PS1='\u@\h:\W\[\033[33m\]$(git_branch)\[\033[0m\]\$ '
