@@ -11,3 +11,6 @@ vim.cmd("filetype plugin indent on")
 
 -- ensuring cliboard is the same and P and p here
 vim.opt.clipboard = "unnamedplus"
+
+-- ensure suggestions do not autocomplete the first opt
+vim.opt.completeopt = {"menuone", "noselect", "popup"}
