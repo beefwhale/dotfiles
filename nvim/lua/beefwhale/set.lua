@@ -14,3 +14,14 @@ vim.opt.clipboard = "unnamedplus"
 
 -- ensure suggestions do not autocomplete the first opt
 vim.opt.completeopt = {"menuone", "noselect", "popup"}
+
+-- line numbers
+vim.opt.nu = true
+vim.opt.relativenumber = true
+
+-- incremental search
+vim.opt.hlsearch = false
+vim.opt.incsearch = true
+
+
+
